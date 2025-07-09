@@ -23,16 +23,15 @@ These components are used to demonstrate how stress testing tools can assess sys
 
 ## Services
 
-- 'configserver': Centralized configuration service
-- 'eurekaserver': Service registry for microservices
-- 'organization-service': Handles organization data
-- 'licensing-service': Handles license data
-- 'postgres': Backend database with schema and seed data
+- configserver: Centralized configuration service
+- eurekaserver: Service registry for microservices
+- organization-service: Handles organization data
+- licensing-service: Handles license data
+- postgres: Backend database with schema and seed data
 
 ## Running the System
 
 ### 1. Clone the Repository
 
-'''bash
 git clone https://github.com/jared-rudd/ToolSurvey-StressTesting.git
 cd ToolSurvey-StressTesting
